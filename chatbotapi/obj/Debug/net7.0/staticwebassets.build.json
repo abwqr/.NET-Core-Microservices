@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rDletIEqglQjUaJ590M9F9OULp+qGVFLuM+db3u8s5g=",
+  "Source": "chatbotapi",
+  "BasePath": "_content/chatbotapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

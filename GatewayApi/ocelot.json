@@ -1,0 +1,31 @@
+{
+    "Routes": [
+        {
+        "DownstreamPathTemplate": "/api",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+            {
+                "Host": "localhost",
+                "Port": 5289
+            }
+        ],
+        "UpstreamPathTemplate": "/gateway/employee",
+        "UpstreamHttpMethod": [ "Get" ]
+        },
+        {
+        "DownstreamPathTemplate": "/api",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+            {
+                "Host": "localhost",
+                "Port": 5182
+            }
+        ],
+        "UpstreamPathTemplate": "/gateway/chatbot",
+        "UpstreamHttpMethod": [ "Get" ]
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:7000"
+    }
+}
